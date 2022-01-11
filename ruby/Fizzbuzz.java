@@ -6,7 +6,7 @@ class Fizzbuzz{
         int numBuzz= 5;
         String strFizz = "Fizz";
         String strBuzz = "Buzz";
-        
+
         for(i = 1; i <= loopCount; i++ ){
             if (i % (numFizz * numBuzz) == 0){
                 System.out.println(strFizz + strBuzz);
